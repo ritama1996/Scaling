@@ -14,7 +14,7 @@ source /opt/software/intel_2019.u0/initpaths intel64
 
 
 INPUT=job.in
-
+# Change the directory according to the method (MTACE/s-MTACE)
 CPMDEXE=/home/kritama/CPMD_CODES/CPMD_MTS_ACE_GLE_IN_WFN_WTMTD/bin/cpmd.x
 
 PPDIR=/home/kritama/PP_AC/PP
