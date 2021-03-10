@@ -1,5 +1,5 @@
 # Scaling
-Run MTACE & s-MTACE with 32 &amp; 64 water system with same number of processors
+Run MTACE & s-MTACE with 32 &amp; 64 water system with different number of processors
 # For 32 MTACE
 cd /scratch/kritama/largefile/water_restart_files/strong_scaling_32
 # For 64 MTACE
