@@ -1,14 +1,35 @@
-# Scaling
-Run MTACE & s-MTACE with 32 &amp; 64 water system with different number of processors
+# Scaling in NSM
+
+Run MTACE & s-MTACE for 32 & 64 water system with different number of processors and cp groups
+
 # For 32 MTACE
-cd /scratch/kritama/largefile/water_restart_files/strong_scaling_32
+
+cd /scratch/kritama/sagar/scaling/cp_grp/MTACE/32
+
 # For 64 MTACE
-cd /scratch/kritama/largefile/water_restart_files/strong_scaling_64
+
+cd /scratch/kritama/sagar/scaling/cp_grp/MTACE/64
+
+  make different folders with different number of processors
+  No. of Proc CP_GRP
+      40        12
+      30        9
+      20        6
+      10        3
 
 # For 32 s-MTACE
-cd /scratch/kritama/largefile/water_restart_files/s-MTACE/32
-# For 64 s-MTACE
-cd /scratch/kritama/largefile/water_restart_files/s-MTACE/64
 
-# Path to ritama@SL302
-cd /home/ritama/CPMD_SINR/plots/strong_scaling
+cd /scratch/kritama/sagar/scaling/cp_grp/s-MTACE/32
+
+# For 64 s-MTACE
+
+cd /scratch/kritama/sagar/scaling/cp_grp/MTACE/64
+
+  make different folders with different number of processors
+  No. of Proc CP_GRP
+      40        12
+      30        9
+      20        6
+      10        3
+
+
