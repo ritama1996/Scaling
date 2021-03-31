@@ -1,4 +1,18 @@
 # ADD CP_GRP IN INPUT FILE
 
-# FOR 32 WATER : 4
-# FOR 64 WATER : 3
+# FOR 32 WATER : 
+  Number of grid points = 120
+  No. of Processors     CP_GROUPS
+         120                1
+         240                2
+         360                3
+         480                4
+# FOR 64 WATER : 
+  Number of grid points = 160
+  No. of Processors     CP_GROUPS
+         160                1
+         320                2
+         480                3
+         640                4
+         800                5
+         960                6
